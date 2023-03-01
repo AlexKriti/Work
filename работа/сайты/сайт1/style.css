@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.container {
+    max-width: 71%;
+    margin: auto;
+}
+
+a{
+    height: auto;
+}
+
+a:hover,button:hover{
+    cursor: pointer;
+}
+
+nav.high {
+    background-color: #E5E5E5;
+    margin: 0 0 16px;
+}
+
+nav.high div.container ul {
+    text-decoration: none;
+    display: flex;
+    height: 50px;
+    color: #333333;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    list-style-type: none;
+    margin: auto;
+    width: 50%;
+}
+
+nav.high ul li {
+    margin-right: 7%;
+}
+
+li.last {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    color: #66C05D;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    align-content: center;
+    align-items: center;
+}
+
+h1::before {
+    content: url(images/logo.svg);
+    padding-right: 20px;
+}
+
+div.h1 {
+    margin-top: 20px;
+}
+
+div.h1 div.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.h1 div.container div.phonecall {
+    display: flex;
+    align-items: center;
+}
+
+div.h1 div.container div.phonecall p {
+    height: 100%;
+    margin-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+div.h1 div.container div.phonecall button {
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    padding: 12px 26px 13px 27px;
+}
+
+nav.afterh1 {
+    border-top: 1px solid gray;
+    padding: 30px 0;
+}
+
+nav.afterh1 div.container ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 61%;
+    margin: auto;
+}
+
+nav.afterh1 div.container ul li {
+    margin-right: 40px;
+}
+
+main {
+    background-color: #EFEFEF;
+}
+
+div.chair-picture {
+    background-image: url(images/frame.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 192px;
+}
+
+div.chair-picture div.container h2 {
+    padding: 0 0 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+div.chair-picture div.container p {
+    margin: 0 0 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+div.chair-picture div.container button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    margin-bottom: 193px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    background-color: #66C05D;
+    color: #FFFFFF;
+    padding: 12px 26px 13px 27px;
+}
+
+div.sale {
+    margin-top: 80px;
+}
+
+div.sale div.car {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+div.car h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+div.sale div.chairs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.sale div.chairs section.chair {
+    margin-right: 30px;
+    max-height: 363px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+section.last {
+    margin-right: 0%;
+}
+
+div.sale div.chairs section.chair img {
+    margin: 25px 65px 0;
+}
+
+div.sale div.chairs section.chair button.buy a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.sale div.chairs section.chair p.describe {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+div.sale div.chairs section.chair p.cost {
+    margin: 0 88px 20px;
+    width: 80px;
+}
+
+div.sale div.chairs section.chair button.buy {
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #66C05D;
+    padding: 9px 40px 9px 39px;
+    margin: 0 63px 25px 62px;
+}
+
+div.bonus {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.green {
+    background-color: #66C05D;
+    width: 46%;
+    padding-left: 40px;
+}
+
+div.green h3 {
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+div.green p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+div.one p {
+    margin: 25px 0;
+}
+
+div.one input {
+    width: 225px;
+    margin-bottom: 35px;
+    border: 2px solid #66C05D;
+    border-radius: 30px;
+    padding: 9px 104px 9px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 80%;
+    color: #C4C4C4;
+    place-content: none;
+}
+
+div.inside {
+    display: flex;
+    align-content: center;
+}
+
+div.one div.inside::after {
+    content: url(images/letter.svg);
+    margin: auto 0 auto 0;
+    margin-left: 30px;
+}
+
+div.two h3 {
+    margin-bottom: 25px;
+}
+
+div.two p {
+    margin-bottom: 25px;
+}
+
+div.two button.card {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    background-color: #66C05D;
+    padding: 9px 28px 9px 29px;
+}
+
+main {
+    padding-bottom: 133px;
+}
+
+div.bright {
+    padding: 37px 0 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+ul.icons {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.icons li {
+    background-image: url(images/ellipse.svg);
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    margin-right: 16px;
+    background-position: center;
+}
+
+ul.icons li img {
+    margin: auto;
+}
+
+div.bright p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+div.bright div.phonecall {
+    display: flex;
+    align-items: center;
+
+}
+
+div.bright div.phonecall p {
+    height: 100%;
+    margin-right: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+div.bright div.phonecall button {
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+    background-color: #FFFFFF;
+    padding: 12px 26px 13px 27px;
+}
+
+div.dark {
+    background-color: #E5E5E5;
+    padding: 25px 0;
+}
+
+div.dark p.about,
+div.dark p.politic {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+div.dark div.container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+@media(max-width: 1450px) {
+    div.sale div.chairs{
+        justify-content:stretch
+    }
+    div.chair-picture {
+        background-position: center;
+        background-size: auto;
+    }
+
+    div.sale div.chairs {
+        flex-wrap: wrap;
+    }
+
+    div.bright div.phonecall p {
+        margin: 0 10px;
+    }
+
+    div.sale div.chairs section.chair {
+        margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
+    }
+
+    div.sale div.chairs section.chair img {
+        width: 80px;
+    }
+
+    div.dark p.about,
+    div.dark p.politic {
+        width: 35%;
+    }
+
+    div.bright div.phonecall p {
+        border: 1px solid #333333;
+        padding: 5px;
+    }
+
+    div.bright p {
+        border-radius: 20px;
+        border: 1px solid #66C05D;
+        border-radius: 20px;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 1500px) {
+
+    div.one div.inside::after {
+        content: none;
+    }
+
+    nav.afterh1 div.container ul {
+        width: auto;
+    }
+
+    div.chair-picture {
+        padding-top: 150px;
+    }
+
+    div.one input {
+        padding: 9px 0;
+    }
+}
+
+@media(max-width:1002px){
+    nav.afterh1 div.container ul li{
+        margin-top: 15px;
+    }
+    
+    div.green{
+        width: 40%;
+        padding: 0 20px;
+    }
+    div.h1 div.container div.phonecall p {
+        display: none;
+}
+    nav.high div.container ul{
+        margin-left: 0%;
+        width: 90%;
+    }
+}
+
+@media(max-width:590px) {
+
+    html {
+        width: 100vh;
+    }
+    div.bright p.delete{
+        display: none;
+    }
+    div.phonecall p{
+        margin-right: 10px;
+        border-color: #333333;
+    }
+}

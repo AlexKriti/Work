@@ -1,0 +1,10 @@
+main div.mainmodel{
+    background-image: url(../images/elipsemain.svg);
+}
+
+main div.quality {
+    background-image: url(../images/group2.svg);
+}
+
+main div.quality div.container {
+    background-image: url(../images/group1.png);}

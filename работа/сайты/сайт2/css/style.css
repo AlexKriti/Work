@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FDFDFB;
+}
+
+div.container {
+  width: 86%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #555248;
+}
+header div.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.14em;
+  color: #555248;
+}
+header div.logo img {
+  width: 100%;
+  height: 100%;
+}
+header div.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  vertical-align: bottom;
+}
+header div.container ul.text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  color: #555248;
+  justify-content: space-between;
+  width: 32%;
+  align-content: center;
+}
+header div.container ul.pict {
+  display: flex;
+  justify-content: space-between;
+  width: 7.5%;
+}
+
+div.darkline {
+  position: relative;
+  height: 1px;
+  width: 50px;
+  background-color: #8B8371;
+}
+
+main div.mainmodel {
+  display: flex;
+  max-height: 768px;
+  background-repeat: no-repeat;
+  background-position: -125px;
+}
+main div.mainmodel div.text {
+  margin-top: 236px;
+}
+main div.mainmodel div.text h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  padding-bottom: 36px;
+  color: #1B1A17;
+}
+main div.mainmodel div.text p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  width: 258px;
+  color: rgba(27, 26, 23, 0.82);
+}
+main div.mainmodel div.text button {
+  padding: 26px 38px 27px 28px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #444240;
+  margin-top: 44px;
+}
+main div.mainmodel div.aroundimg {
+  display: flex;
+  align-content: end;
+  margin-left: 55px;
+  font-family: "Prata", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+  vertical-align: bottom;
+  width: 699px;
+}
+main div.mainmodel div.aroundimg img {
+  position: relative;
+  right: 0px;
+  bottom: -25px;
+}
+main div.mainmodel div.aroundimg div.beforeimg,
+main div.mainmodel div.aroundimg div.afterimg {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: relative;
+}
+main div.mainmodel div.aroundimg div.beforeimg div.wrapper,
+main div.mainmodel div.aroundimg div.afterimg div.wrapper {
+  display: flex;
+  align-items: center;
+}
+main div.mainmodel div.aroundimg div.beforeimg {
+  top: -600px;
+}
+main div.mainmodel div.aroundimg div.afterimg {
+  top: -200px;
+}
+main div.popular {
+  background-color: #FFFFFF;
+  padding: 79px 0 86px;
+}
+main div.popular h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+  text-align: center;
+  padding-bottom: 52px;
+}
+main div.popular p {
+  padding-top: 10px;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+main div.popular img {
+  border-radius: 200px;
+  border-right: 1.5px solid #F4E6DD;
+  border-top: 1px solid #F4E6DD;
+  border-bottom: 1px solid #F4E6DD;
+  padding-bottom: 20px;
+}
+main div.popular ul.models {
+  display: flex;
+  justify-content: space-between;
+}
+main div.popular ul.models li {
+  background-color: #FDFDFB;
+  max-width: 370px;
+}
+main div.popular ul.models li div.liwrap {
+  padding: 40px 26px 39px 36px;
+}
+main div.popular ul.models li a {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+}
+main div.popular ul.models li a div.wrapper {
+  display: flex;
+  align-items: center;
+}
+main div.popular ul.models li img {
+  margin-right: 21px;
+  position: relative;
+  right: 21px;
+}
+main div.popular div.line {
+  height: 5px;
+  width: 103px;
+  background-color: #C4C0B6;
+}
+main div.popular div.linewrap {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+main div.popular p.next {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+}
+main div.quality {
+  background-repeat: no-repeat;
+}
+main div.quality div.container {
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+}
+main div.quality div.firstbanner {
+  padding: 52px 69px 0 80px;
+}
+main div.quality div.secondbanner h2 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  margin: 140px 0 38px;
+  color: #1B1A17;
+}
+main div.quality div.secondbanner p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #444240;
+  width: 376px;
+}
+main div.quality div.secondbanner button.look {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding: 26px 38px 27px;
+  margin-top: 45px;
+  background: #D4B098;
+  border: 1px solid #D4B098;
+}
+main div.quality div.number {
+  text-align: center;
+  position: relative;
+  left: 324px;
+  margin: 20px 0 15px;
+  display: flex;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+main div.quality div.number a.left {
+  padding-right: 20px;
+}
+main div.quality div.number a.right {
+  padding-left: 20px;
+}
+main div.suscribe {
+  color: #1B1A17;
+  padding-bottom: 90px;
+}
+main div.suscribe div.container {
+  display: flex;
+  justify-content: space-between;
+}
+main div.suscribe div.text {
+  padding: 221px 0 155.5px;
+}
+main div.suscribe div.text h3 {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+main div.suscribe div.text p {
+  padding-top: 40px;
+  width: 376px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  padding-bottom: 118px;
+  color: #444240;
+}
+main div.suscribe a.adress {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 27px;
+  color: #262421;
+}
+main div.suscribe ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 93px;
+}
+main div.suscribe div.photo img {
+  margin: 81px 0 90px;
+}
+main .wrapper div.noline {
+  width: 100%;
+}
+main .wrapper div.rubles {
+  width: 70px;
+}
+main .afterimg .wrapper {
+  position: relative;
+  right: 20px;
+}
+main .afterimg .wrapper .mm {
+  width: 122px;
+}
+main h1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  padding-bottom: 16px;
+  vertical-align: middle;
+  color: #1B1A17;
+  background-position-x: 40px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+}
+main div.wrap {
+  display: flex;
+  width: 408px;
+}
+main div.wrap div.darkline {
+  top: 270px;
+}
+
+footer {
+  padding: 67px 0;
+  background-color: #444240;
+  color: #FFFFFF;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: top;
+}
+footer .container div.ul h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  padding-bottom: 33px;
+  text-transform: uppercase;
+}
+footer .container div.ul h3.logo {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.14em;
+  max-height: 19px;
+  position: relative;
+  top: 3px;
+}
+footer .container div.ul li {
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+footer div.name {
+  display: flex;
+  padding-bottom: 23px;
+}
+footer div.name img {
+  position: relative;
+  top: -3px;
+}
+footer div.first {
+  position: relative;
+  top: -6px;
+}/*# sourceMappingURL=style.css.map */
