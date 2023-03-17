@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    margin-bottom: 20px;
+}
+
+body{
+    margin: 20px 0 50px;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+input:hover, a:hover{
+    cursor: pointer;
+}
+
+img{
+    padding: 3px 5px;
+}
+
+p.red{
+    color: red;
+    display: none;
+}

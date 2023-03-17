@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 5. (для выполнения сделайте сперва задание из п3 текущего дз) Написать блок с поиском репозиториев github по подстроке
+Документация по работе с API здесь:
+https://docs.github.com/en/rest/search?apiVersion=2022-11-28
+--- если по запросу ничего не найдено, то вместо списка сообщение "Ничего не найдено" -->
+<div class="container">
+    <form action="#">
+        <input id="text" placeholder="Введите имя репозитория" type="text">
+    <input type="submit">
+    <p class="red" id="one">Ошибка! Недостаточно символов.</p>
+    <p class="red" id="two">Произошла ошибка при запросе данных</p>
+    <p class="red" id="three">Ничего не найдено</p>
+    </form>
+    <ul></ul>
+    <script src="scripts.js"></script>
+</div>
+    
+</body>
+
+</html>
