@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Султан</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="non-colored">
+            <div class="container">
+                <ul class="flex">
+                    <li>
+                        <div class="adressone">
+                            <img src="images/showplacemarker.svg" alt="">
+                            <div class="adress-text">
+                                <p class="main-text">г. Кокчетав, ул. Ж. Ташенова 129Б</p>
+                                <p class="non-main-text">(Рынок Восточный)</p>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <img src="images/letter.svg" alt="">
+                            <div class="email-text">
+                                <p class="main-email">opt.sultan@mail.ru</p>
+                                <p class="non-main-text">На связи в любое время</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="high-about frst">О компании</p>
+                        <p class="dash"></p>
+                        <p class="high-about dashed">Доставка и оплата</p>
+                        <p class="dash"></p>
+                        <p class="high-about dashed">Возврат</p>
+                        <p class="dash"></p>
+                        <p class="high-about dashed lst">Контакты</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="colored">
+
+            <div class="container">
+                <ul class="non-flex">
+                    <li class="logo">
+                        <a href="./index.html"><img src="images/logo.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <button class="bck-yellow-one app">
+                            <p class="inside-app">Каталог</p>
+                        </button>
+                    </li>
+                    <li>
+                        <form action="#">
+                            <input placeholder="Поиск..." type="search">
+                            <button class="search"><img src="images/search.svg" alt=""></button>
+                        </form>
+                    </li>
+                    <li>
+                        <div class="phonecall">
+                            <p class="phone-num dark">+7 (777) 490-00-91</p>
+                            <p class="work-time">время работы: 9:00-20:00</p>
+                            <p class="phone-call">Заказать звонок</p>
+                        </div>
+                        <img class="woman" src="images/woman.png" alt="">
+                    </li>
+                    <li>
+                        <button class="bck-yellow-two prace-list">
+                            <p class="inside-list">Прайс-лист</p>
+                        </button>
+                    </li>
+                    <li class="flex">
+                        <img src="images/cart.svg" alt="">
+                        <div>
+                            <p class="cart">Корзина</p>
+                            <p class="money">12 478 ₸ </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container invis">
+            <div class="invis">
+                <div class="lil-logo">
+                    <button class="zero"><img src="images/newwhitemenu.svg" alt=""></button>
+                    <img src="images/логосултан.svg" alt="">
+                    <img src="images/lilcart.svg" alt="">
+                </div>
+                <div class="functions">
+                    <a class="catalog" href="#">Каталог</a>
+                    <a class="search" href="#">Поиск</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container page-of-catalog">
+            <div class="way">
+                <p class="way">Главная</p>
+                <p class="dash"></p>
+                <p class="way">Косметика и гигиена</p>
+            </div>
+            <div class="flex-wrap">
+                <h1>Косметика и гигиена</h1>
+                <div class="sort">
+                    <p>Сортировка:</p>
+                    <div class="in-sort">
+                        <p class="from-ul">Название</p>
+                        <img src="images/triangle.svg" alt="">
+                        <ul class="invis">
+                            <li>Название</li>
+                            <li>Цена(меньше)</li>
+                            <li>Цена(больше)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="care">
+                <p class="care-type">Уход<br>за телом</p>
+                <p class="care-type">Уход <br>за руками</p>
+                <p class="care-type">Уход <br>за ногами</p>
+                <p class="care-type">Уход <br>за лицом</p>
+                <p class="care-type">Уход <br>за волосами</p>
+                <p class="care-type">Средства <br>для загара</p>
+                <p class="care-type">Средства <br>для бритья</p>
+                <p class="care-type">Подарочные <br>наборы</p>
+                <p class="care-type">Гигиеническая <br>продукция</p>
+                <p class="care-type">Гигиена <br>полости рта</p>
+                <p class="care-type">Бумажная <br>продукция</p>
+            </div>
+            <div class="main-content">
+                <div class="filter">
+                    <div class="parametrs">
+                        <h4>ПОДБОР ПО ПАРАМЕТРАМ</h4>
+                        <p>Цена<b>₸</b></p>
+                        <div class="choose-cost">
+                            <form action="#" class="choose-cost">
+                                <p class="wrapper-background">
+                                    <input class="first" placeholder="0" type="text">
+                                </p>
+                                <p>-</p>
+                                <p class="wrapper-background">
+                                    <input class="second" placeholder="10000" type="text">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <h4>Бренд</h4>
+                        <form action="#">
+                            <input placeholder="Поиск..." type="search">
+                            <button class="search"><img src="images/search.svg" alt=""></button>
+                        </form>
+                        <div class="wrapper">
+                            <form class="dark-form" action="#">
+                                <div class="input-wrapper">
+                                    <input name="Nivea" type="checkbox">
+                                    <p>Nivea</p> <sub>(56)</sub>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input name="" type="checkbox">
+                                    <p>GRIFON</p> <sub>(66)</sub>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input name="Домашний сундук" type="checkbox">
+                                    <p>Домашний сундук</p> <sub>(166)</sub>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input name="HELP" type="checkbox">
+                                    <p>HELP</p> <sub>(21)</sub>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="for-part-of-body">
+                        <h4>Уход за телом</h4>
+                        <p class="epi">Эпиляция и депиляция</p>
+                        <p class="bath">Средства для ванны и душа</p>
+                        <p class="scrab">Скрабы, пилинги и пр.</p>
+                        <p class="washcloth">Мочалки и губки для тела</p>
+                        <p class="cream">Кремы, лосьоны, масла</p>
+                        <p class="int">Интимный уход</p>
+                        <p class="dez">Дезодоранты, антиперспиранты</p>
+                        <p class="shower">Гели для душа</p>
+                    </div>
+                </div>
+                <div class="products" id="root">
+                    
+                </div>
+            </div>
+        </div>
+                
+
+
+
+
+        <div class="container cart-of-the-product">
+            <div class="way">
+                <p class="way">Главная</p>
+                <p class="dash"></p>
+                <p class="way">Косметика и гигиена</p>
+                <p class="dash"></p>
+                <p class="way">Уход за руками</p>
+                <p class="dash"></p>
+                <p class="way">Мыло твердое</p>
+                <p class="dash"></p>
+                <p class="way-name">BioMio BIO-SOAP Экологичное туалетное мыло. Литсея и бергамот, 90 г</p>
+            </div>
+            <div class="about">
+                <div class="image">
+                    <img src="images/soap.png" alt="">
+                </div>
+                <div class="moreInf">
+                    <p class="have">В наличии</p>
+                    <h2 class="name"><b>BioMio BIO-SOAP</b> Экологичное туалетное
+                        мыло. Литсея и бергамот</h2>
+                    <div class="weight">
+                        <img src="images/boxopen.svg" alt="">
+                        <p class="weight">90 г</p>
+                    </div>
+                    <div class="put-in-cart">
+                        <p class="cost">48,76 ₸</p>
+                        <p class="more-less">1</p>
+                        <button class="bck-yellow-three">
+                            <p>В корзину</p>
+                        </button>
+                    </div>
+                    <div class="share">
+                        <a href="#"><img src="images/share.svg" alt=""></a>
+                        <p class="free-delivery">При покупке от 10 000 ₸ бесплатная доставка по Кокчетаву и области
+                        </p>
+                        <div class="list-inside"><a href="#" class="list">Прайс-лист</a></div>
+                    </div>
+                    <div class="more-about">
+                        <div class="flex-category">
+                            <p class="category">Производитель:</p>
+                            <p class="in-category">BioMio</p>
+                        </div>
+                        <div class="flex-category">
+                            <p class="category">Бренд:</p>
+                            <p class="in-category">BioMio</p>
+                        </div>
+                        <div class="flex-category">
+                            <p class="category">Артикул:</p>
+                            <p class="in-category">460404</p>
+                        </div>
+                        <div class="flex-category">
+                            <p class="category">Кол-во в коробке:</p>
+                            <p class="in-category">2</p>
+                        </div>
+                        <div class="flex-category">
+                            <p class="category">Штрихкод:</p>
+                            <p class="in-category">4604049097548</p>
+                        </div>
+                        <div class="flex-category">
+                            <p class="category">Размеры коробки<sub>(Д*Ш*В)</sub>:</p>
+                            <p class="in-category">10х10х10</p>
+                        </div>
+                        <div class="flex-category">
+                            <p class="category">Вес коробки:</p>
+                            <p class="in-category">1020 г</p>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <button class="description">
+                            <p>Описание</p> <img class="closed" src="images/triangle.svg" alt=""><img class="open"
+                                src="images/opentriangle.svg" alt="">
+                        </button>
+                        <p class="desc-invis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                            interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat
+                            massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat
+                            consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim,
+                            malesuada.</p>
+                    </div>
+                    <div class="hor-border"></div>
+                    <div class="charact">
+                        <button class="charact">
+                            <p>Характеристики</p> <img class="closed" src="images/triangle.svg" alt=""><img
+                                class="open" src="images/opentriangle.svg" alt="">
+                        </button>
+                        <div class="char-invis">
+                            <div class="flex-category">
+                                <p class="category">Назначение:</p>
+                                <p class="in-category">BioMio</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Тип:</p>
+                                <p class="in-category">BioMio</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Производитель:</p>
+                                <p class="in-category">460404</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Бренд:</p>
+                                <p class="in-category">4604049097548</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Артикул:</p>
+                                <p class="in-category">4604049097548</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Штрихкод:</p>
+                                <p class="in-category">4604049097548</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Вес:</p>
+                                <p class="in-category">90 г</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Объем:</p>
+                                <p class="in-category">90 г</p>
+                            </div>
+                            <div class="flex-category">
+                                <p class="category">Кол-во в коробке:</p>
+                                <p class="in-category">90 г</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="container basket-invis">
+            <div class="way-bin">
+                <p class="main-page">Главная</p>
+                <p class="dash"></p>
+                <p class="basket">Корзина</p>
+            </div>
+            <div class="products-in-basket">
+                <h1>Корзина</h1>
+                <div class="basket-wrapper">
+                    <p class="dash"></p>
+                <div class="products">
+                    <div class="spec-flexwrap">
+                        <a href="#">
+                            <div class="product">
+                                <img src="images/sorti.png" alt="">
+                                <div class="description">
+                                    <p class="volume">450 мл</p>
+                                    <h3>AOS Ср-во для мытья посуды Апельсин+мята</h3>
+                                    <p class="regtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. </p>
+                                </div>
+                                <div class="put-in-cart">
+                                    <p class="more-less">1</p>
+                                    <p class="cost">48,76 ₸</p>
+                                    <button class="delete">
+                                        <img src="images/bin.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <p class="dash"></p>
+                    <div class="product"></div>
+                    <p class="dash"></p>
+                    <div class="product"></div>
+                </div>
+                </div>
+                <div class="spec-flexwrap">
+                    <button class="checkout">
+                        <p>Оформить заказ</p>
+                    </button>
+                    <p>1 348,76 ₸</p>
+                </div>
+            </div>
+        </div>
+
+
+            
+                
+    </main>
+    <footer>
+        <div class="container">
+            <div class="for-login">
+                <img src="images/whitelogo.svg" alt="">
+                <p class="sultan-inf">Компания «Султан» — снабжаем розничные магазины товарами<br>
+                    "под ключ" в Кокчетаве и Акмолинской области</p>
+                <p class="suscribe">
+                    Подпишись на скидки и акции
+                </p>
+                <form action="#">
+                    <input placeholder="Введите ваш E-mail" type="search">
+                    <button class="search"><img src="images/arrow.svg" alt=""></button>
+                </form>
+            </div>
+            <div class="flex-face">
+                <div class="in-face in-face-one">
+                    <h4>Меню сайта:</h4>
+                    <div class="p">
+                        <p><a href="#">О компании</a></p>
+                        <p><a href="#">Доставка и оплата</a></p>
+                        <p><a href="#">Возврат</a></p>
+                        <p><a href="#">Контакты</a></p>
+                    </div>
+                </div>
+                <div class="in-face">
+                    <h4>Категории:</h4>
+                    <div class="p">
+                        <p><a href="#">Бытовая химия</a></p>
+                        <p><a href="#">Косметика и гигиена</a></p>
+                        <p><a href="#">Товары для дома</a></p>
+                        <p><a href="#">Товары для детей и мам</a></p>
+                        <p><a href="#">Посуда</a></p>
+                    </div>
+                </div>
+                <div class="in-face">
+                    <h4>Скачать прайс-лист:</h4>
+                    <div class="connect">
+                        <button class="bck-yellow-two prace-list">
+                            <p class="inside-list">Прайс-лист</p>
+                        </button>
+                        <p class="connect">Связь в мессенджерах:</p>
+                        <a href="#"><img src="images/whansapp.svg" alt=""></a>
+                        <a href="#"><img src="images/telegram.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="in-face">
+                    <h4>Контакты:</h4>
+                    <div class="phonecall">
+                        <p class="phone-num dark">+7 (777) 490-00-91</p>
+                        <p class="work-time">время работы: 9:00-20:00</p>
+                        <p class="phone-call">Заказать звонок</p>
+                    </div>
+                    <div class="email-text">
+                        <p class="main-email">opt.sultan@mail.ru</p>
+                        <p class="non-main-text">На связи в любое время</p>
+                    </div>
+                    <div class="pay-with-card">
+                        <img src="images/visa.svg" alt="">
+                        <img src="images/mastercard.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../src/scripts.js"></script>
+</body>
+
+</html>

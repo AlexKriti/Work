@@ -1,0 +1,46 @@
+[
+    {
+        "imageUrl":"images/sorti.png",
+        "brand":"Nivea",
+        "kinOofProductBody":"Эпиляция и депиляция",
+        "kinOofProduct":"Уход за телом",
+        "barcode":"4604049097548",
+        "production":"Нефис",
+        "article":"460404",
+        "cost":"100",
+        "description":"Автмат Гель СМС жидкое в растворимых капсулах Liquid"
+    },
+    {
+        "imageUrl":"images/biomio.png",
+        "brand":"GRIFON",
+        "kinOofProductBody":"Эпиляция и депиляция",
+        "kinOofProduct":"Уход за телом",
+        "barcode":"4604049097548",
+        "production":"Нефис",
+        "article":"460404",
+        "cost":"200",
+        "description":"омолаживающий крем для рук и лица"
+    },
+    {
+        "imageUrl":"images/ariel.png",
+        "brand":"Домашний сундук",
+        "kinOofProductBody":"Эпиляция и депиляция",
+        "kinOofProduct":"Уход за телом",
+        "barcode":"4604049097548",
+        "production":"Нефис",
+        "article":"460404",
+        "cost":"300",
+        "description":"гель для душа 3 в 1"
+    },
+    {
+        "imageUrl":"images/aos.png",
+        "brand":"HELP",
+        "kinOofProductBody":"Эпиляция и депиляция",
+        "kinOofProduct":"Уход за телом",
+        "barcode":"4604049097548",
+        "production":"Нефис",
+        "article":"460404",
+        "cost":"400",
+        "description":"средство для мытья посуды Crystal"
+    }
+]
