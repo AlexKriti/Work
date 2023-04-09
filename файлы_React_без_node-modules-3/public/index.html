@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Султан</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="non-colored">
+            <div class="container">
+                <ul class="flex">
+                    <li>
+                        <div class="adressone">
+                            <img src="images/showplacemarker.svg" alt="">
+                            <div class="adress-text">
+                                <p class="main-text">г. Кокчетав, ул. Ж. Ташенова 129Б</p>
+                                <p class="non-main-text">(Рынок Восточный)</p>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <img src="images/letter.svg" alt="">
+                            <div class="email-text">
+                                <p class="main-email">opt.sultan@mail.ru</p>
+                                <p class="non-main-text">На связи в любое время</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="high-about frst">О компании</p>
+                        <p class="dash"></p>
+                        <p class="high-about dashed">Доставка и оплата</p>
+                        <p class="dash"></p>
+                        <p class="high-about dashed">Возврат</p>
+                        <p class="dash"></p>
+                        <p class="high-about dashed lst">Контакты</p>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="colored">
+
+            <div class="container">
+                <ul class="non-flex">
+                    <li class="logo">
+                        <a href="#"><img src="images/logo.svg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="./index.html">
+                            <button class="bck-yellow-one app">
+                                <p class="inside-app">Каталог</p>
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <form action="#">
+                            <input placeholder="Поиск..." type="search">
+                            <button class="search"><img src="images/search.svg" alt=""></button>
+                        </form>
+                    </li>
+                    <li class="withWoman">
+                        <div class="phonecall">
+                            <p class="phone-num dark">+7 (777) 490-00-91</p>
+                            <p class="work-time">время работы: 9:00-20:00</p>
+                            <p class="phone-call">Заказать звонок</p>
+                        </div>
+                        <img class="woman" src="images/woman.png" alt="">
+                    </li>
+                    <li>
+                        <button class="bck-yellow-two prace-list">
+                            <p class="inside-list">Прайс-лист</p>
+                        </button>
+                    </li>
+                    <li class="flex">
+                        <img src="images/cart.svg" alt="">
+                        <div>
+                            <p class="cart">Корзина</p>
+                            <p class="money">12 478 ₸ </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container invis">
+            <div class="invisible">
+                <div class="lil-logo">
+                    <button class="zero"><img src="images/newwhitemenu.svg" alt=""></button>
+                    <img src="images/логосултан.svg" alt="">
+                    <img class="need-to-back-cart" src="images/lilcart.svg" alt="">
+                </div>
+                <div class="functions">
+                    <a class="catalog" href="./index.html">Каталог</a>
+                    <a class="search" href="#">Поиск</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container page-of-catalog">
+            <div class="wayfor">
+                <p class="wayfor">Главная</p>
+                <p class="dash"></p>
+                <p class="wayfor">Косметика и гигиена</p>
+            </div>
+            <div class="flex-wrap">
+                <h1>Косметика и гигиена</h1>
+                <div class="sort">
+                    <p>Сортировка:</p>
+                    <div class="in-sort">
+                        <p class="from-ul">Название</p>
+                        <img src="images/triangle.svg" alt="">
+                        <ul class="invis">
+                            <li>Название</li>
+                            <li>Цена(меньше)</li>
+                            <li>Цена(больше)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="care">
+                <p class="care-type">Уход за телом</p>
+                <p class="care-type">Уход за руками</p>
+                <p class="care-type">Уход за ногами</p>
+                <p class="care-type">Уход за лицом</p>
+                <p class="care-type">Уход за волосами</p>
+                <p class="care-type">Средства для загара</p>
+                <p class="care-type">Средства для бритья</p>
+                <p class="care-type">Подарочные наборы</p>
+                <p class="care-type">Гигиеническая продукция</p>
+                <p class="care-type">Гигиена полости рта</p>
+                <p class="care-type">Бумажная продукция</p>
+            </div>
+            <div class="main-content">
+                <div class="filter">
+                    <div class="parametrs">
+                        <h4>ПОДБОР ПО ПАРАМЕТРАМ</h4>
+                        <p>Цена<b>₸</b></p>
+                        <div class="choose-cost">
+                            <form action="#" class="choose-cost">
+                                <p class="wrapper-background">
+                                    <input class="first" placeholder="0" type="text">
+                                </p>
+                                <p>-</p>
+                                <p class="wrapper-background">
+                                    <input class="second" placeholder="10000" type="text">
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <h4>Бренд</h4>
+                        <form action="#">
+                            <input placeholder="Поиск..." type="search">
+                            <button class="search"><img src="images/search.svg" alt=""></button>
+                        </form>
+                        <div class="wrapper">
+                            <form class="dark-form" action="#">
+                                <div class="input-wrapper">
+                                    <input class="need-to-check" name="Nivea" type="checkbox">
+                                    <p class="no-exist-ever">Nivea</p> <sub>(56)</sub>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input class="need-to-check" name="GRIFON" type="checkbox">
+                                    <p class="no-exist-ever">GRIFON</p> <sub>(66)</sub>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input class="need-to-check" name="Домашний сундук" type="checkbox">
+                                    <p class="no-exist-ever">Домашний сундук</p> <sub>(166)</sub>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input class="need-to-check" name="HELP" type="checkbox">
+                                    <p class="no-exist-ever">HELP</p> <sub>(21)</sub>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="for-part-of-body">
+                        <h4>Тип ухода</h4>
+                        <p>Уход за телом</p>
+                        <p>Уход за руками</p>
+                        <p>Уход за ногами</p>
+                        <p>Уход за лицом</p>
+                        <p>Уход за волосами</p>
+                        <p>Средства для загара</p>
+                        <p>Средства для бритья</p>
+                        <p>Подарочные наборы</p>
+                        <p>Гигиеническая продукция</p>
+                        <p>Гигиена полости рта</p>
+                        <p>Бумажная продукция</p>
+                    </div>
+                </div>
+
+
+                <div class="products" id="root">
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="cart-of-the-product"></div>
+
+
+
+
+
+    </main>
+
+
+    <div>
+        <div class="container basket-invis">
+            <div class="way-bin">
+                <p class="main-page">Главная</p>
+                <p class="dash"></p>
+                <p class="basket">Корзина</p>
+            </div>
+            <div class="products-in-basket">
+                <h1>Корзина</h1>
+                <div class="basket-wrapper">
+                    
+
+                </div>
+                <div class="basket-yo-buy">
+                    <button class="checkout">
+                        <p>Оформить заказ</p>
+                    </button>
+                    <p class="basket-yo-buy-cost">1 348,76 ₸</p>
+                </div>
+                <div class="absolute">
+
+                    <div class="insAbsolute">
+                        <div class="ab-wrap">
+                            <img class="crossclose" src="images/closecross.svg" alt="">
+                            <div class="abMain">
+                                <img class="yellow" src="images/thank.svg" alt="">
+                                <h3>Спасибо за заказ</h3>
+                                <p>Наш менеджер свяжется с вами в ближайшее время</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="footerWrapper">
+            <footer>
+                <div class="container">
+                    <div class="for-login">
+                        <img src="images/whitelogo.svg" alt="">
+                        <p class="sultan-inf">Компания «Султан» — снабжаем розничные магазины товарами<br>
+                            "под ключ" в Кокчетаве и Акмолинской области</p>
+                        <p class="suscribe">
+                            Подпишись на скидки и акции
+                        </p>
+                        <form action="#">
+                            <input placeholder="Введите ваш E-mail" type="search">
+                            <button class="search"><img src="images/arrow.svg" alt=""></button>
+                        </form>
+                    </div>
+                    <div class="flex-face">
+                        <div class="in-face in-face-one">
+                            <h4>Меню сайта:</h4>
+                            <div class="p">
+                                <p><a href="#">О компании</a></p>
+                                <p><a href="#">Доставка и оплата</a></p>
+                                <p><a href="#">Возврат</a></p>
+                                <p><a href="#">Контакты</a></p>
+                            </div>
+                        </div>
+                        <div class="in-face">
+                            <h4>Категории:</h4>
+                            <div class="p">
+                                <p><a href="#">Бытовая химия</a></p>
+                                <p><a href="#">Косметика и гигиена</a></p>
+                                <p><a href="#">Товары для дома</a></p>
+                                <p><a href="#">Товары для детей и мам</a></p>
+                                <p><a href="#">Посуда</a></p>
+                            </div>
+                        </div>
+                        <div class="in-face">
+                            <h4>Скачать прайс-лист:</h4>
+                            <div class="connect">
+                                <button class="bck-yellow-two prace-list">
+                                    <p class="inside-list">Прайс-лист</p>
+                                </button>
+                                <p class="connect">Связь в мессенджерах:</p>
+                                <a href="#"><img src="images/whansapp.svg" alt=""></a>
+                                <a href="#"><img src="images/telegram.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="in-face">
+                            <h4>Контакты:</h4>
+                            <div class="phonecall">
+                                <p class="phone-num dark">+7 (777) 490-00-91</p>
+                                <p class="work-time">время работы: 9:00-20:00</p>
+                                <p class="phone-call">Заказать звонок</p>
+                            </div>
+                            <div class="email-text">
+                                <p class="main-email">opt.sultan@mail.ru</p>
+                                <p class="non-main-text">На связи в любое время</p>
+                            </div>
+                            <div class="pay-with-card">
+                                <img src="images/visa.svg" alt="">
+                                <img src="images/mastercard.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+
+</html>
